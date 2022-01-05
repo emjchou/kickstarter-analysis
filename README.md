@@ -10,11 +10,13 @@ The purpose of this project is to analyze the kickstarter dataset to determine t
 ### Analysis of Outcomes Based on Launch Date
 In order to create the analysis of Outcomes Based on Launch Date, a pivot table was created. This pivot table was filtered with the "Parent Category" set to "theater" and "Years" set to "(All)", and the table itself showed the number of canceled, failed, and successful outcomes for each month. The data of this table was then visualized using a pivot line chart. 
 ![Outcomes Based on Launch Date Graph](Resources/OutcomesBasedonLaunchDateGraph.png)
+
 In viewing this line chart, it can be seen that theater kickstarters had the most number of successful outcomes when launched in May, and had the least number of successful outcomes in December. 
 
 ### Analysis of Outcomes Based on Goals
 In order to create the analysis of Outcomes Based on Goals Chart, the COUNTIFS function was used to group projects based on their goal amount. This dataset was then visualized using a line chart. 
 ![Outcomes Based on Goals Graph](Resources/Outcomes_vs_Goals.png)
+
 In viewing the line chart, it is seen that the lower goal amount ranges have more successful outcomes and less failed outcomes, and as the goal ranges go up, the number of failed to successful outcomes gets closer and closer until they equal each other and then the failed outcomes surpasses the successful outcomes (around the range 15000 to 19999). The most failed outcomes and least successful outcomes occurs in the range 45000 to 49999. Additionally, this price range also contains the most canceled outcomes. 
 
 
