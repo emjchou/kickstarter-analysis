@@ -14,6 +14,7 @@ In viewing this line chart, it can be seen that theater kickstarters had the mos
 
 ### Analysis of Outcomes Based on Goals
 In order to create the analysis of Outcomes Based on Goals Chart, the COUNTIFS function was used to group projects based on their goal amount. This dataset was then visualized using a line chart. 
+![Outcomes Based on Goals Graph](Resources/Outcomes_vs_Goals.png)
 In viewing the line chart, it is seen that the lower goal amount ranges have more successful outcomes and less failed outcomes, and as the goal ranges go up, the number of failed to successful outcomes gets closer and closer until they equal each other and then the failed outcomes surpasses the successful outcomes (around the range 15000 to 19999). The most failed outcomes and least successful outcomes occurs in the range 45000 to 49999. Additionally, this price range also contains the most canceled outcomes. 
 
 
