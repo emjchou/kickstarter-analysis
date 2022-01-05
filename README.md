@@ -9,6 +9,7 @@ The purpose of this project is to analyze the kickstarter dataset to determine t
 
 ### Analysis of Outcomes Based on Launch Date
 In order to create the analysis of Outcomes Based on Launch Date, a pivot table was created. This pivot table was filtered with the "Parent Category" set to "theater" and "Years" set to "(All)", and the table itself showed the number of canceled, failed, and successful outcomes for each month. The data of this table was then visualized using a pivot line chart. 
+![Outcomes Based on Launch Date Graph](Resources/OutcomesBasedonLaunchDateGraph.png)
 In viewing this line chart, it can be seen that theater kickstarters had the most number of successful outcomes when launched in May, and had the least number of successful outcomes in December. 
 
 ### Analysis of Outcomes Based on Goals
